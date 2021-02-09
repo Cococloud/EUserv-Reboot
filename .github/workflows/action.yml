@@ -1,4 +1,4 @@
-name: 'EUserv Auto Extend'
+name: 'EUserv Auto Extend' 
 
 #on:
   workflow_dispatch:
@@ -6,7 +6,7 @@ name: 'EUserv Auto Extend'
     branches:
      - main
   schedule:
-    - cron: '40 5 * * *'
+    - cron: '42 5 * * *'
 
 jobs:
   auto_renew:
